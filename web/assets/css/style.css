@@ -1,0 +1,163 @@
+@charset "ISO-8859-1";
+
+.sign_form {
+  max-width: 500px;
+  padding: 10px;
+  margin-top: 50px;
+  border: 1px solid #109abd;
+}
+
+.legend {
+  height:40px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.error{
+    border-color: red;
+}
+
+#secondProf {
+  max-width: 450px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  border-radius: 0px 0px 20px 20px;
+  border: 1px solid #109abd;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+body {
+	background-color: #fffffa; 
+}
+
+.pheader {
+	color: white;
+	background-color: #109abd;
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: 0px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+
+.signInFrm {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.bttnSignIn {
+	background-color: #109abd;
+}
+
+.em_ps{
+  display: block;
+}
+#form-pass-mismatch, #form-pass-len{
+  color: rgb(255, 58, 58);
+}
+
+
+
+//FROM Django Project
+
+
+
+.post , .alert, .profile-heading{
+    padding: 5px 0 5px 10px;
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+
+
+.post{
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+.post p{
+    margin: 0 10px 5px 0;
+    padding: 10px;
+    text-align: justify;
+}
+.row_1{
+    display: table;
+    clear: both;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+
+.account-img-profile{
+    width: 100px;
+    height: 100px;
+}
+.account-img-post{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#head_title, #head_title:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/* navbar */
+
+.welcomeMsg {
+	color: #fff;
+	background-color: #109abd;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #fffffa;
+}
+
+.tableDiv {
+	width: 100%;
+}
+.infoTable {
+	padding-top: 30px;
+	margin: 0 auto;
+}
+td {
+	padding: 10px;
+	padding-left: 15px;
+}
+th {
+	padding: 10px;
+	padding-left: 15px;
+	font-size: 30px;
+}
+
+table tr:last-child td:first-child {
+    border-radius: 0px 0px 0px 20px;
+}
+
+table tr:last-child td:last-child {
+    border-radius: 0px 0px 20px 0px;
+}
+
+.main-nav{
+	margin-left: auto;
+}
+.nav-margin{
+	margin: 10px 10px 10px 0;
+}
